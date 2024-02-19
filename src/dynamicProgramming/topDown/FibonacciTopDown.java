@@ -3,7 +3,7 @@ package dynamicProgramming.topDown;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class FibonacciDP {
+public class FibonacciTopDown {
     static final int SIZE = 100;
     static int[] result = new int[SIZE];
     public static void initializeArray() {
