@@ -2,7 +2,7 @@ package dynamicProgramming.topDown;
 
 import java.util.Scanner;
 
-public class WeddingShopping {
+public class WeddingShoppingTopDown {
     static int C, M;
     private static final int[][] costs = new int[25][25]; // costs[g=20][model=20]
     private static final int[][] memoization = new int[210][25]; // costs[M=20][G=20]
