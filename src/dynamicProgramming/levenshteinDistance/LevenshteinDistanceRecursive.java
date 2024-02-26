@@ -31,8 +31,8 @@ public class LevenshteinDistanceRecursive {
     }
 
     public static void main(String[] args) {
-        String s1 = "kitten";
-        String s2 = "sitting";
+        String s1 = "kittdgdfgdgdfgdfhhhhhhhhhhhhhhhdden";
+        String s2 = "sittdfgggggggggggggggggggggggggggggggssssing";
         int distance = editDistance(s1, s2);
         System.out.println("Levenshtein distance between \"" + s1 + "\" and \"" + s2 + "\" is: " + distance);
     }

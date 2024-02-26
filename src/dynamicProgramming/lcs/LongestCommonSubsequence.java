@@ -35,7 +35,7 @@ public class LongestCommonSubsequence {
         int[][] dp = new int[m + 1][n + 1];
 
         // JIC: dp[i][j]: longest subsequence in first i in text1 & first j in text2
-        for (int i = 1; i <= m; ++i)
+        for (int i = 1; i <= m; ++i) // first column and first row values are zero
         {
             for (int j = 1; j <= n; ++j)
             {
@@ -48,6 +48,7 @@ public class LongestCommonSubsequence {
                 }
             }
         }
+
         return dp[m][n];
     }
 
