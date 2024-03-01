@@ -1,0 +1,9 @@
+Q2: If we can solve a problem by combining the solutions to its sub-problems, does that mean
+that we can solve it with a DP algorithm?
+Yes, dp is used to solve problems by breaking them down into simpler sub-problems and solving each sub-problem only once,
+saving the solutions of sub-problems
+
+Q3: In the Edit-Distance algorithm, when we do an insertion operation, why do we need to look at the Edit-Distance of
+the previous character position of the second string?.
+We need to looking at the edit distance of the previous character position of the second string, to make decisions
+about the current cell and accurately calculate the cost of the insertion operation.
